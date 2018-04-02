@@ -1,5 +1,6 @@
 header {
-  background-color: #474448;
+  background-color: rgb(37, 37, 37);
+  color: white;
   height: 150px;
   display: flex;
   align-items: flex-end;
@@ -33,11 +34,21 @@ body {
 .card {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   width: 200px;
   height: 300px;
-  margin: 15px;
+  margin: 5px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 14px;
+}
+
+.url {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgb(237, 237, 237);
+  width: 180px;
+  height: 30px;
 }
 
 .card img {
