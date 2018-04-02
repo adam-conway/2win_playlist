@@ -1,0 +1,21 @@
+header {
+  background-color: #474448;
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+header p {
+  margin-right: 15px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
